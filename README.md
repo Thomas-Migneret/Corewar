@@ -42,12 +42,12 @@ Le jeu se déroule en deux grandes parties :
 ## Compilation
 
 ```bash
-make          # compile asm et corewar
-make asm      # compile uniquement l'assembleur
-make corewar  # compile uniquement la VM
-make clean    # supprime les objets
-make fclean   # supprime les objets et les binaires
-make re       # recompile tout
+make            # compile le binaire corewar
+make clean      # supprime les fichiers objets et de coverage
+make fclean     # supprime en plus les binaires (corewar, unit_tests)
+make re         # recompile tout depuis zéro
+make tests_run  # compile et lance les tests unitaires (Criterion)
+make epiclang   # lance epiclang sur les sources et les tests
 ```
 
 ---
