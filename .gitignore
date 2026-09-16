@@ -1,0 +1,7 @@
+stuff/
+a.out
+*.o
+corewar
+*.gcda
+*.gcno
+unit_tests
